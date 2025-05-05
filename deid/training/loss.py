@@ -17,7 +17,7 @@ from training import lpips #import exportPerceptualLoss
 import sys
 # from unetseg.model import build_unet as unetseg
 sys.path.append('.tmp/unetseg/UNET/')
-from tmp.unetseg.UNET.model import build_unet as unetseg
+from ThirdPart.unetseg.model import build_unet as unetseg
 
 import PIL
 #----------------------------------------------------------------------------
